@@ -1,5 +1,5 @@
 {
-    "name": "themainframe/php-binary",
+    "name": "ampersand/php-binary",
     "description": "A PHP library for parsing structured binary streams.",
     "authors": [
         {
@@ -8,7 +8,7 @@
         },
         {
             "name": "Josh Di Fabio",
-            "email": "joshdifabio@gmail.com"
+            "email": "jd@amp.co"
         }
     ],
     "minimum-stability": "dev",
