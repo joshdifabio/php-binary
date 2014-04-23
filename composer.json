@@ -5,6 +5,10 @@
         {
             "name": "Damien Walsh",
             "email": "me@damow.net"
+        },
+        {
+            "name": "Josh Di Fabio",
+            "email": "joshdifabio@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -14,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Binary\\": "src/Binary/"
+            "Binary\\": "src"
         }
     }
 }
