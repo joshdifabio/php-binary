@@ -102,7 +102,19 @@ class DataSet
     public function getValueByPath($path)
     {
         $child = $this->data;
-
+        
+        if ('' === $path[0]) {
+            array_shift($path);
+        } else {
+            foreach ($this->currentPath as $part) {
+                if (isset($child[$part])) {
+                    $child = $child[$part];
+                } else {
+                    return null;
+                }
+            }
+        }
+        
         foreach ($path as $part) {
             if (isset($child[$part])) {
                 $child = $child[$part];
